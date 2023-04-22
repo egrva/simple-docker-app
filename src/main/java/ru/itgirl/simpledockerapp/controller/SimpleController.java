@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SimpleController {
-
     @GetMapping("/")
     public String hello() {
         return "Hello Docker!";
